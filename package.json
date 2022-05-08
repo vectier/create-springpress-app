@@ -1,0 +1,29 @@
+{
+  "name": "create-springpress-app",
+  "version": "1.0.0",
+  "description": "A CLI to create the Springpress application",
+  "bin": {
+    "create-springpress-app": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "createSpringpressApp.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "springpress"
+  ],
+  "author": "Vectier",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "commander": "^9.2.0",
+    "prompts": "^2.4.2",
+    "validate-npm-package-name": "^4.0.0"
+  },
+  "engines": {
+    "node": "16.15.0"
+  }
+}
